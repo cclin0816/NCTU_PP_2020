@@ -41,7 +41,7 @@ int main () {
 
     double end_time = MPI_Wtime();
     MPI_Finalize();
-    // printf("MPI running time: %lf Seconds\n", end_time - start_time);
+    printf("MPI running time: %lf Seconds\n", end_time - start_time);
 
     return 0;
 }
